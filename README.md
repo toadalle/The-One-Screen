@@ -17,6 +17,8 @@ A single-screen conversion for **The Legend of Zelda: Ocarina of Time 3D**, buil
 - Frontend backdrop fixes and full-width main-screen transition fades
 - Numerous HUD and UI fixes designed specifically around single-screen play
 
+Enjoying The One Screen? [Support development with a donation via PayPal](https://www.paypal.com/donate/?hosted_button_id=UCP5YEHAS7HYA).
+
 ## Installation
 
 **USA Rev 1 only** | Title ID `0004000000033500` | **Alpha 1.1.12**
