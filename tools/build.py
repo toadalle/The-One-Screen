@@ -59,7 +59,7 @@ def resources(retail,romfs):
                 (retail/info['file']).write_bytes(data)
     for path,info in inputs.items():
         if digest((retail/info['file']).read_bytes())!=info['sha256']:raise ValueError('Resource identity mismatch: '+path)
-    output=ROOT/'load/mods/0004000000033500/romfs';previews=ROOT/'docs/previews'
+    output=ROOT/'load/mods/0004000000033500/romfs';previews=ROOT/'.build/previews'
     load_module('build_hud_atlas').build(retail/'hud_all00_base.ctxb',ROOT/'assets',output/'menu/01_US_ENGLISH/hud_all00.ctxb',previews/'hud_atlas.png')
     load_module('build_menu_top_atlas').build(retail/'menu_top_parts00_base.ctxb',ROOT/'assets',output/'menu/01_US_ENGLISH/menu_top_parts00.ctxb',previews/'menu_atlas.png')
     load_module('build_ocarina_atlas').build(retail/'menu_okarina_parts00_base.ctxb',output/'menu/01_US_ENGLISH/menu_okarina_parts00.ctxb',previews/'ocarina_atlas.png')
@@ -144,14 +144,14 @@ def main():
     (dest/'exheader.bin').write_bytes(exheader)
     resources(args.retail_dir,args.romfs.resolve() if args.romfs else None)
     runtime='NOT_RUN'
-    runtime_path=ROOT/'docs/RUNTIME_SMOKE.json'
+    runtime_path=ROOT/'.build/RUNTIME_SMOKE.json'
     if runtime_path.exists():
         smoke=json.loads(runtime_path.read_text())
         if smoke.get('ips_sha256')==digest(ips):runtime=smoke['result']
     report=dict(version=version,counters=v,retail_sha256=digest(code),patch_count=len(patches),ips_sha256=digest(ips),native_allocation_end=hex(nativeEnd),payload_start='0x610000',payload_end=hex(end),bss_size=hex(max(oldBss,newBss)),sections=manifest,runtime_validation=runtime,frontend_replay='EXACT_PRODUCER_PASS_SCOPED_VISUAL_ACCEPTANCE_PENDING')
-    (ROOT/'docs/BUILD_MANIFEST.json').write_text(json.dumps(report,indent=2)+'\n')
+    (build/'BUILD_MANIFEST.json').write_text(json.dumps(report,indent=2)+'\n')
     files={p.relative_to(ROOT).as_posix():digest(p.read_bytes()) for p in ROOT.rglob('*') if p.is_file() and '.build' not in p.parts and '__pycache__' not in p.parts and p.name!='CHECKSUMS.json' and p.suffix.lower() not in ('.ttf','.otf','.woff','.woff2')}
-    (ROOT/'docs/CHECKSUMS.json').write_text(json.dumps(files,indent=2,sort_keys=True)+'\n')
+    (build/'CHECKSUMS.json').write_text(json.dumps(files,indent=2,sort_keys=True)+'\n')
     args.output.parent.mkdir(parents=True,exist_ok=True);names=package(version,args.output)
     print(json.dumps(dict(zip=str(args.output),version=version,entries=len(names),bytes=args.output.stat().st_size,patches=len(patches),sha256=digest(args.output.read_bytes()))))
 if __name__=='__main__':main()

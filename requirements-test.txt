@@ -1,2 +1,0 @@
--r requirements-build.txt
-unicorn==2.1.4
