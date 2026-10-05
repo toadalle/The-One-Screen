@@ -88,6 +88,10 @@ python tools/build.py --retail-dir PATH_TO_RETAIL --zig PATH_TO_ZIG --output tos
 
 Developed with AI assistance from ChatGPT and Codex.
 
+## Credits
+
+Shout-out to [M-1](https://gamebanana.com/members/1544353) and their [OoT3D: Single Screen Experience](https://gamebanana.com/mods/695893) mod for inspiring this project. The One Screen was developed independently and does not incorporate code or mod files from that project.
+
 ## License
 
 [MIT](LICENSE) covers original project code, scripts, tooling, and documentation. Game-derived assets and inherited third-party material are excluded; see [third-party notices](THIRD_PARTY_NOTICES.md).
