@@ -36,7 +36,7 @@ Screenshots show the author's Azahar setup. Separate texture packs are not inclu
 
 | Requirement | Supported target |
 | --- | --- |
-| Game | The Legend of Zelda: Ocarina of Time 3D — USA Rev 1 |
+| Game | The Legend of Zelda: Ocarina of Time 3D â€” USA Rev 1 |
 | Title ID | `0004000000033500` |
 | Emulator | Tested primarily with Azahar |
 | Current version | Alpha 1.1.12 |
@@ -45,9 +45,9 @@ Other regions and revisions are not supported by the supplied patch. Hardware co
 
 ## Installation
 
-1. Download `tos-alpha-1.1.12.zip` from [Releases](../../releases).
+1. [Download the repository ZIP](https://github.com/toadalle/The-One-Screen/archive/refs/heads/main.zip) and extract it, or clone this repository.
 2. Close the game and back up any existing mod for this title. Replace the previous title mod contents rather than mixing versions.
-3. Extract the included `load` folder into your **Azahar user directory** so the mod installs under:
+3. Inside the extracted `The-One-Screen-main` folder, copy the included `load` folder into your **Azahar user directory** so the mod installs under:
 
    ```text
    load/mods/0004000000033500/
