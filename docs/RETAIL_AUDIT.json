@@ -1,0 +1,11 @@
+{
+  "cci": "Legend of Zelda, The - Ocarina of Time 3D (USA) (En,Fr,Es) (Rev 1).cci",
+  "partition_offset": "0x4000",
+  "title_id": "0004000000033500",
+  "code_bytes": 4567040,
+  "code_sha256": "ef210566e1d9d16879a746dfb063fcbad232f0171d860de906531ecc526cc020",
+  "external_code_match": true,
+  "romfs_readable_ivfc": true,
+  "romfs_full_file_comparison": "PASS",
+  "romfs_matched_files": 1944
+}

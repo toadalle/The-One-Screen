@@ -1,0 +1,14 @@
+{
+  "ips_sha256": "0d5052f2569b93c15d39536112c767fc8f8be7010ff6e93aa11a42c7b97af30b",
+  "result": "NATURAL_BOOT_TRACE_PASS_VISUAL_NOT_TESTED",
+  "emulator": "Azahar 2126.1.2",
+  "isolation": "Existing portable isolated user directory; primary user configuration unchanged",
+  "visual_validation": "NOT_RUN",
+  "natural_controller_transition_validation": "NOT_RUN",
+  "gameplay_validation": "NOT_RUN",
+  "trace_rows": 539,
+  "native_background_draws": 25,
+  "promoted_background_suppressed": 25,
+  "promoted_full_width_fade_callbacks": 1,
+  "movie_playback": false
+}

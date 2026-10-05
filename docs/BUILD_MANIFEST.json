@@ -1,0 +1,307 @@
+{
+  "version": "1.1.12",
+  "counters": {
+    "major": 1,
+    "milestone": 1,
+    "iteration": 12
+  },
+  "retail_sha256": "ef210566e1d9d16879a746dfb063fcbad232f0171d860de906531ecc526cc020",
+  "patch_count": 46,
+  "ips_sha256": "10cf910aceb3f7d6fdaf138d53fa813a2f63d4040fdb2dc4ea8a3a514a3a8026",
+  "native_allocation_end": "0x608000",
+  "payload_start": "0x610000",
+  "payload_end": "0x64b8b1",
+  "bss_size": "0xf1000",
+  "sections": [
+    {
+      "section": ".patch_motion_disable",
+      "address": "0x2ded60",
+      "size": 4,
+      "sha256": "379bec29dccd0a93c94826144d7ef6e42fab64ef195a3b8313a16926f66f388f"
+    },
+    {
+      "section": ".patch_frontend_exact_queued_draw",
+      "address": "0x2feaa4",
+      "size": 4,
+      "sha256": "0ac2703a8a7e950e8e7b9ccb34862128d1736bb7b2344ae8afe9ef0ac33aab82"
+    },
+    {
+      "section": ".patch_movie",
+      "address": "0x300518",
+      "size": 4,
+      "sha256": "940f2cc55889495975030ae47fbf496d745a8050d98d3a98011f81f9cc0b897a"
+    },
+    {
+      "section": ".patch_target",
+      "address": "0x300588",
+      "size": 8,
+      "sha256": "68dadb7ff5978d09150b66a64c5ae7b34ff2af4ab45b8ce538c0c94eefc2234f"
+    },
+    {
+      "section": ".patch_submit_top",
+      "address": "0x41952c",
+      "size": 4,
+      "sha256": "b94b268b9ff25c41192b854d424b564998ea8f80901fcc33729090838597c1a6"
+    },
+    {
+      "section": ".patch_submit_right",
+      "address": "0x4197dc",
+      "size": 4,
+      "sha256": "45ba2884a83a54d47c104b84e05ab91bed43d479b95277c99df94670aff3c024"
+    },
+    {
+      "section": ".patch_file_select_backdrop",
+      "address": "0x419820",
+      "size": 4,
+      "sha256": "c3c700e432bfd90dcdd779f03f3c5dbb03822cc91b6510430c0f34ee6293f1db"
+    },
+    {
+      "section": ".patch_lower_fade",
+      "address": "0x419868",
+      "size": 4,
+      "sha256": "7842f82405de1b28c107d9e4e8b1dc88e63389d2724b531e960d07d8cde21a74"
+    },
+    {
+      "section": ".patch_submit_bottom",
+      "address": "0x4198b0",
+      "size": 4,
+      "sha256": "dc2da92c890c9570ef913c722935210973df5cd829ad7f4da1e5d7c2f221bd2b"
+    },
+    {
+      "section": ".patch_note",
+      "address": "0x41a904",
+      "size": 4,
+      "sha256": "d520ab3f7a713c969b51b21fba968adb86ec469981ae5ceeaf92cb9f5a6fcd3a"
+    },
+    {
+      "section": ".patch_action",
+      "address": "0x41e250",
+      "size": 4,
+      "sha256": "2b3220fdddf7ad37ca41499da08300e373e1bdcaa5557dfd8dac8c29b0b5244d"
+    },
+    {
+      "section": ".patch_hud_submit",
+      "address": "0x41eabc",
+      "size": 4,
+      "sha256": "849d834f9dfd4b86abb541d9ed2dec3674df62fc1ada8720633d80d641914203"
+    },
+    {
+      "section": ".patch_minimap",
+      "address": "0x41eb04",
+      "size": 4,
+      "sha256": "061bad7dba9f827548a07f6ca74b15e42cd845d007fe33584750678907e2c5e8"
+    },
+    {
+      "section": ".patch_common_backdrop",
+      "address": "0x41ee2c",
+      "size": 4,
+      "sha256": "805f8f50c61c586f26d832c793a049e56e5d68280b5797800c69eeb0a522546b"
+    },
+    {
+      "section": ".patch_ocarina_native_draw",
+      "address": "0x41ee74",
+      "size": 4,
+      "sha256": "aa3ef526b8581abd64a658abf9773e002b1cc22cbeac070c6fcec4a3a7086082"
+    },
+    {
+      "section": ".patch_hid_pointer",
+      "address": "0x423340",
+      "size": 4,
+      "sha256": "263e4db0fbc6a03cb7295ae273ee74207f5379166cfe38d33da277533582825d"
+    },
+    {
+      "section": ".patch_touch",
+      "address": "0x428a4c",
+      "size": 4,
+      "sha256": "9d08b41706637a954a3f68b76b019a9f2f6ab6aeb25f7b0f1d85497b59efc2d3"
+    },
+    {
+      "section": ".patch_map_markers",
+      "address": "0x42b85c",
+      "size": 4,
+      "sha256": "f196e661873e3aeec5b31e593d795e8cc6826c59f592eb9595b69ab46edbab69"
+    },
+    {
+      "section": ".patch_motion_gate_a",
+      "address": "0x42bca8",
+      "size": 4,
+      "sha256": "e4d7b88bb2dcfd05224eaae0b9a91b9f94946208d90d3ae3938af9bc9b2f170b"
+    },
+    {
+      "section": ".patch_draw_a",
+      "address": "0x42bcc4",
+      "size": 4,
+      "sha256": "e8e38be2e4263428b53bba7132302cc816afa5cb31dac6c79f3d9190536e3409"
+    },
+    {
+      "section": ".patch_motion_gate_b",
+      "address": "0x42be48",
+      "size": 4,
+      "sha256": "e4d7b88bb2dcfd05224eaae0b9a91b9f94946208d90d3ae3938af9bc9b2f170b"
+    },
+    {
+      "section": ".patch_draw_b",
+      "address": "0x42be64",
+      "size": 4,
+      "sha256": "eff3df5a5435d08285d71835e1591cbb84a472c10078b1d09ec0ae34f35a1a79"
+    },
+    {
+      "section": ".patch_pause",
+      "address": "0x42ec04",
+      "size": 4,
+      "sha256": "80c6f87bef5aba21679a005d23578309fd5ebe64fa00712f378085f7f7861d66"
+    },
+    {
+      "section": ".patch_keyboard",
+      "address": "0x43dd18",
+      "size": 4,
+      "sha256": "1b0f3a25c89fc916133bf346699346e5caf99f6b6d9e59f217f7580ec3183e9d"
+    },
+    {
+      "section": ".patch_mode_backdrop_dual",
+      "address": "0x43fe30",
+      "size": 4,
+      "sha256": "29c98e0000ef31de5dd132a7350c6486199d56a7917579fb57a7a9ff42260a78"
+    },
+    {
+      "section": ".patch_mode_backdrop_single",
+      "address": "0x44015c",
+      "size": 4,
+      "sha256": "6afa24c893ee5d63fd64001595a87f9687e44eeab0918a5429767ddd2a273388"
+    },
+    {
+      "section": ".patch_file_primary",
+      "address": "0x450878",
+      "size": 4,
+      "sha256": "80ee6d12501d3b84484a0ee1f11ce06bf00023559f70fa9073771a27d92a0eac"
+    },
+    {
+      "section": ".patch_file_accent",
+      "address": "0x450ad4",
+      "size": 4,
+      "sha256": "24944d30c66c1801cc3b4984ca4e4f6b6c67b87233749b179d016e610037fea1"
+    },
+    {
+      "section": ".patch_file_modal",
+      "address": "0x45135c",
+      "size": 4,
+      "sha256": "2c85a64fe578cf7cd46afecde8689f9aaa58f2d11e011c9de64ed6912f306eae"
+    },
+    {
+      "section": ".patch_file_aux",
+      "address": "0x452108",
+      "size": 4,
+      "sha256": "359b20f6cd424ae0c9e0c2e3b88b10ea4172ff4e831aca84ff0341b6fe7d27aa"
+    },
+    {
+      "section": ".patch_before",
+      "address": "0x452390",
+      "size": 4,
+      "sha256": "325779f887b1106cb0522304433c8ed9c6614def53e6dca06669e8c6fc39f924"
+    },
+    {
+      "section": ".patch_after",
+      "address": "0x452434",
+      "size": 4,
+      "sha256": "5c35bbd6c87727130870b50197a5f32c353ad5a405e7292135b4f66ea404641e"
+    },
+    {
+      "section": ".patch_file_fade_producer_a",
+      "address": "0x45ce68",
+      "size": 4,
+      "sha256": "9df244ff7954ff69fb8933e68150ef4e51e3285e858e1efeb003e6e674a79afa"
+    },
+    {
+      "section": ".patch_file_fade_producer_b",
+      "address": "0x45db7c",
+      "size": 4,
+      "sha256": "5e14b1c1d98aa5a95923e65eb631edba48be58cbe9027661541f1bd0003aaaa8"
+    },
+    {
+      "section": ".patch_file_fade_producer_c",
+      "address": "0x45f754",
+      "size": 4,
+      "sha256": "fb28e91fa1c16cf0075dc517be08835691411616602adf77bef6dce02caab159"
+    },
+    {
+      "section": ".patch_file_fade_producer_d",
+      "address": "0x45fab8",
+      "size": 4,
+      "sha256": "b087ae0ee9ef0d3dd49cc636fad6f1c2ea463033536923f0a32bd1db20250430"
+    },
+    {
+      "section": ".patch_heart_positions",
+      "address": "0x4695f0",
+      "size": 4,
+      "sha256": "e4d7b88bb2dcfd05224eaae0b9a91b9f94946208d90d3ae3938af9bc9b2f170b"
+    },
+    {
+      "section": ".patch_heart_indices",
+      "address": "0x4695f8",
+      "size": 4,
+      "sha256": "e4d7b88bb2dcfd05224eaae0b9a91b9f94946208d90d3ae3938af9bc9b2f170b"
+    },
+    {
+      "section": ".patch_heart_texture",
+      "address": "0x469628",
+      "size": 4,
+      "sha256": "6e7bea1f015b8eae9e4362bbfaeef4f769fb69ffe14e5dd9c10f243cdd2cd952"
+    },
+    {
+      "section": ".patch_shard_overlay",
+      "address": "0x469b48",
+      "size": 4,
+      "sha256": "78ef61d611b1a58746a4bcde42ca6e271a4bf6619400679ed4376cb2672db9f8"
+    },
+    {
+      "section": ".patch_vision_transition_a",
+      "address": "0x4848d0",
+      "size": 4,
+      "sha256": "e4d7b88bb2dcfd05224eaae0b9a91b9f94946208d90d3ae3938af9bc9b2f170b"
+    },
+    {
+      "section": ".patch_vision_transition_b",
+      "address": "0x484924",
+      "size": 4,
+      "sha256": "e4d7b88bb2dcfd05224eaae0b9a91b9f94946208d90d3ae3938af9bc9b2f170b"
+    },
+    {
+      "section": ".patch_vision_transition_c",
+      "address": "0x484990",
+      "size": 4,
+      "sha256": "e4d7b88bb2dcfd05224eaae0b9a91b9f94946208d90d3ae3938af9bc9b2f170b"
+    },
+    {
+      "section": ".patch_target_note",
+      "address": "0x494e10",
+      "size": 4,
+      "sha256": "9463a031728f63a5b8d769804d22ad4e0604e511db428f527d0518faed08f3a5"
+    },
+    {
+      "section": ".patch_heart_descriptor",
+      "address": "0x4d30a4",
+      "size": 32,
+      "sha256": "96ca15ea8ebfb248c30dc203178d2373899b496537a0bd3396095e6cbe374748"
+    },
+    {
+      "section": ".patch_shard_positions",
+      "address": "0x4d31bc",
+      "size": 48,
+      "sha256": "018fd394f7827633b9d61c853ee0220da79bfd23aed0943bc49451f335a0f577"
+    },
+    {
+      "section": ".payload",
+      "address": "0x610000",
+      "size": 32484,
+      "sha256": "79b375d433f25cea3efc7640fa7b83f0f77d35af3d20e0d852c568203765e676"
+    },
+    {
+      "section": ".zero",
+      "address": "0x617ef0",
+      "size": 211393,
+      "sha256": "39971b9a559390f0ee70c60300eb23d295fca3384ba253e7206bc0e70d96c018"
+    }
+  ],
+  "runtime_validation": "NOT_RUN",
+  "frontend_replay": "EXACT_PRODUCER_PASS_SCOPED_VISUAL_ACCEPTANCE_PENDING"
+}

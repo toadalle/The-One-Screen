@@ -1,0 +1,370 @@
+[
+  {
+    "name": "motion_disable",
+    "address": "0x2ded60",
+    "expected": "08109fe5",
+    "assembly": "bx lr",
+    "size": 4,
+    "owner": "health"
+  },
+  {
+    "name": "movie",
+    "address": "0x300518",
+    "expected": "31ff2f11",
+    "assembly": "blne tos_movie",
+    "size": 4,
+    "owner": "visions"
+  },
+  {
+    "name": "target",
+    "address": "0x300588",
+    "expected": "70402de90040a0e1",
+    "assembly": "ldr pc, [pc, #-4]\n.word Presentation_Target",
+    "size": 8,
+    "owner": "render"
+  },
+  {
+    "name": "submit_top",
+    "address": "0x41952c",
+    "expected": "439bfbeb",
+    "assembly": "bl Presentation_Submit",
+    "size": 4,
+    "owner": "render"
+  },
+  {
+    "name": "submit_right",
+    "address": "0x4197dc",
+    "expected": "979afbeb",
+    "assembly": "bl Presentation_Submit",
+    "size": 4,
+    "owner": "render"
+  },
+  {
+    "name": "file_select_backdrop",
+    "address": "0x419820",
+    "expected": "d599fbeb",
+    "assembly": "bl tos_file_select_backdrop",
+    "size": 4,
+    "owner": "frontend_alpha098_exact"
+  },
+  {
+    "name": "lower_fade",
+    "address": "0x419868",
+    "expected": "d60a00eb",
+    "assembly": "bl Presentation_LowerFade",
+    "size": 4,
+    "owner": "frontend"
+  },
+  {
+    "name": "submit_bottom",
+    "address": "0x4198b0",
+    "expected": "629afbeb",
+    "assembly": "bl tos_submit_lower",
+    "size": 4,
+    "owner": "render"
+  },
+  {
+    "name": "note",
+    "address": "0x41a904",
+    "expected": "0060a0e3",
+    "assembly": "bl tos_note",
+    "size": 4,
+    "owner": "ocarina"
+  },
+  {
+    "name": "action",
+    "address": "0x41e250",
+    "expected": "7c3500eb",
+    "assembly": "bl tos_action",
+    "size": 4,
+    "owner": "hud"
+  },
+  {
+    "name": "hud_submit",
+    "address": "0x41eabc",
+    "expected": "b03c00eb",
+    "assembly": "bl Hud_Submit",
+    "size": 4,
+    "owner": "hud"
+  },
+  {
+    "name": "minimap",
+    "address": "0x41eb04",
+    "expected": "5174fbeb",
+    "assembly": "bl tos_minimap",
+    "size": 4,
+    "owner": "minimap"
+  },
+  {
+    "name": "common_backdrop",
+    "address": "0x41ee2c",
+    "expected": "31ff2fe1",
+    "assembly": "bl tos_common_backdrop",
+    "size": 4,
+    "owner": "frontend_alpha098_exact"
+  },
+  {
+    "name": "mode_backdrop_dual",
+    "address": "0x43fe30",
+    "expected": "b09efaeb",
+    "assembly": "bl Presentation_ModeBackdrop",
+    "size": 4,
+    "owner": "frontend_mode_exact"
+  },
+  {
+    "name": "mode_backdrop_single",
+    "address": "0x44015c",
+    "expected": "e59dfaeb",
+    "assembly": "bl Presentation_ModeBackdrop",
+    "size": 4,
+    "owner": "frontend_mode_exact"
+  },
+  {
+    "name": "ocarina_native_draw",
+    "address": "0x41ee74",
+    "expected": "331e00eb",
+    "assembly": "bl Ocarina_DrawNative",
+    "size": 4,
+    "owner": "ocarina"
+  },
+  {
+    "name": "hid_pointer",
+    "address": "0x423340",
+    "expected": "040090e5",
+    "assembly": "bl tos_hid",
+    "size": 4,
+    "owner": "input"
+  },
+  {
+    "name": "touch",
+    "address": "0x428a4c",
+    "expected": "0040d6e5",
+    "assembly": "bl tos_touch",
+    "size": 4,
+    "owner": "input"
+  },
+  {
+    "name": "map_markers",
+    "address": "0x42b85c",
+    "expected": "6e38fbeb",
+    "assembly": "bl Minimap_MaterializeMarkers",
+    "size": 4,
+    "owner": "minimap"
+  },
+  {
+    "name": "motion_gate_a",
+    "address": "0x42bca8",
+    "expected": "0600001a",
+    "assembly": "nop",
+    "size": 4,
+    "owner": "health"
+  },
+  {
+    "name": "draw_a",
+    "address": "0x42bcc4",
+    "expected": "31ff2fe1",
+    "assembly": "bl tos_draw",
+    "size": 4,
+    "owner": "hud"
+  },
+  {
+    "name": "motion_gate_b",
+    "address": "0x42be48",
+    "expected": "0600001a",
+    "assembly": "nop",
+    "size": 4,
+    "owner": "health"
+  },
+  {
+    "name": "draw_b",
+    "address": "0x42be64",
+    "expected": "31ff2fe1",
+    "assembly": "bl tos_draw",
+    "size": 4,
+    "owner": "hud"
+  },
+  {
+    "name": "pause",
+    "address": "0x42ec04",
+    "expected": "7832fceb",
+    "assembly": "bl Bridge_PauseMask",
+    "size": 4,
+    "owner": "input"
+  },
+  {
+    "name": "keyboard",
+    "address": "0x43dd18",
+    "expected": "172bfceb",
+    "assembly": "bl Tos_ObserveRegister",
+    "size": 4,
+    "owner": "frontend_diagnostics"
+  },
+  {
+    "name": "file_primary",
+    "address": "0x450878",
+    "expected": "3fe0fbeb",
+    "assembly": "bl Tos_ObserveRegister",
+    "size": 4,
+    "owner": "frontend_diagnostics"
+  },
+  {
+    "name": "file_accent",
+    "address": "0x450ad4",
+    "expected": "a8dffbeb",
+    "assembly": "bl Tos_ObserveRegister",
+    "size": 4,
+    "owner": "frontend_diagnostics"
+  },
+  {
+    "name": "file_modal",
+    "address": "0x45135c",
+    "expected": "86ddfbeb",
+    "assembly": "bl Tos_ObserveRegister",
+    "size": 4,
+    "owner": "frontend_diagnostics"
+  },
+  {
+    "name": "file_aux",
+    "address": "0x452108",
+    "expected": "1bdafbeb",
+    "assembly": "bl Tos_ObserveRegister",
+    "size": 4,
+    "owner": "frontend_diagnostics"
+  },
+  {
+    "name": "before",
+    "address": "0x452390",
+    "expected": "0070a0e1",
+    "assembly": "bl tos_before",
+    "size": 4,
+    "owner": "input"
+  },
+  {
+    "name": "after",
+    "address": "0x452434",
+    "expected": "6d40faea",
+    "assembly": "b tos_after",
+    "size": 4,
+    "owner": "camera"
+  },
+  {
+    "name": "file_fade_producer_a",
+    "address": "0x45ce68",
+    "expected": "de5afbeb",
+    "assembly": "bl Presentation_FadePrimitive",
+    "size": 4,
+    "owner": "frontend_scoped_fade"
+  },
+  {
+    "name": "file_fade_producer_b",
+    "address": "0x45db7c",
+    "expected": "9957fbeb",
+    "assembly": "bl Presentation_FadePrimitive",
+    "size": 4,
+    "owner": "frontend_scoped_fade"
+  },
+  {
+    "name": "file_fade_producer_c",
+    "address": "0x45f754",
+    "expected": "a350fbeb",
+    "assembly": "bl Presentation_FadePrimitive",
+    "size": 4,
+    "owner": "frontend_scoped_fade"
+  },
+  {
+    "name": "file_fade_producer_d",
+    "address": "0x45fab8",
+    "expected": "ca4ffbeb",
+    "assembly": "bl Presentation_FadePrimitive",
+    "size": 4,
+    "owner": "frontend_scoped_fade"
+  },
+  {
+    "name": "heart_positions",
+    "address": "0x4695f0",
+    "expected": "fc40cde1",
+    "assembly": "nop",
+    "size": 4,
+    "owner": "health"
+  },
+  {
+    "name": "heart_indices",
+    "address": "0x4695f8",
+    "expected": "1c008de5",
+    "assembly": "nop",
+    "size": 4,
+    "owner": "health"
+  },
+  {
+    "name": "heart_texture",
+    "address": "0x469628",
+    "expected": "0100a0e3",
+    "assembly": "mov r0,#2",
+    "size": 4,
+    "owner": "health"
+  },
+  {
+    "name": "shard_overlay",
+    "address": "0x469b48",
+    "expected": "0000e041",
+    "assembly": ".float 144",
+    "size": 4,
+    "owner": "shard"
+  },
+  {
+    "name": "vision_transition_a",
+    "address": "0x4848d0",
+    "expected": "9e8efaeb",
+    "assembly": "nop",
+    "size": 4,
+    "owner": "visions"
+  },
+  {
+    "name": "vision_transition_b",
+    "address": "0x484924",
+    "expected": "898efaeb",
+    "assembly": "nop",
+    "size": 4,
+    "owner": "visions"
+  },
+  {
+    "name": "vision_transition_c",
+    "address": "0x484990",
+    "expected": "6e8efaeb",
+    "assembly": "nop",
+    "size": 4,
+    "owner": "visions"
+  },
+  {
+    "name": "target_note",
+    "address": "0x494e10",
+    "expected": "0010a0e1",
+    "assembly": "bl tos_target_note",
+    "size": 4,
+    "owner": "ocarina"
+  },
+  {
+    "name": "heart_descriptor",
+    "address": "0x4d30a4",
+    "expected": "000000000000000000000000040000000000000004000000020000000c000000",
+    "assembly": ".word tosHeartPositions,tosHeartUVs,0,80,tosHeartIndices,118,2,12",
+    "size": 32,
+    "owner": "health"
+  },
+  {
+    "name": "shard_positions",
+    "address": "0x4d31bc",
+    "expected": "000040410000684200000000000070420000684200000000000040410000204100000000000070420000204100000000",
+    "assembly": ".float 12,174,0,60,174,0,12,126,0,60,126,0",
+    "size": 48,
+    "owner": "shard"
+  },
+  {
+    "name": "frontend_exact_queued_draw",
+    "address": "0x2feaa4",
+    "expected": "31ff2fe1",
+    "assembly": "bl Presentation_DrawQueued",
+    "size": 4,
+    "owner": "frontend_exact_producers"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "menu/01_US_ENGLISH/hud_all00.ctxb": {
+    "file": "hud_all00_base.ctxb",
+    "sha256": "66de627666e1fca0fc6c7ed3cb1b0d1a305cc4b3094f245acf7da873c1efd6ed"
+  },
+  "menu/01_US_ENGLISH/menu_top_parts00.ctxb": {
+    "file": "menu_top_parts00_base.ctxb",
+    "sha256": "150c29c4b5207b73a8a676ce076e1402ed90c185439e096b15a8cdc9be707420"
+  },
+  "menu/01_US_ENGLISH/menu_okarina_parts00.ctxb": {
+    "file": "menu_okarina_parts00_base.ctxb",
+    "sha256": "aca6cc2d68cd5876124ee9e46828091c2208a419bc89aa47d1850ee16ab50c7c"
+  },
+  "message/parts.ctxb": {
+    "file": "message_parts_base.ctxb",
+    "sha256": "080f0b9f017becb14b017f4fd583f08fb4de42a195313515d20ff0b38eaada3f"
+  },
+  "menu/01_US_ENGLISH/menu_file_select_parts00.ctxb": {
+    "file": "menu_file_select_parts00.ctxb",
+    "sha256": "3bfe7b68709341f681f25af8dd3374c4fd03189788f896089801bf7b9395552f"
+  },
+  "menu/01_US_ENGLISH/menu_file_select_parts01.ctxb": {
+    "file": "menu_file_select_parts01.ctxb",
+    "sha256": "8866455b2e624f830c6350d0805c18eb956366e3c3228ca50abe783aac0b69c9"
+  },
+  "menu/01_US_ENGLISH/name_entry00_parts00.ctxb": {
+    "file": "name_entry00_parts00.ctxb",
+    "sha256": "64ba911bcb5deb671a19629def2dfc5a5c2c75a84fac710671a8982d198c838a"
+  },
+  "menu/01_US_ENGLISH/name_entry00_parts01.ctxb": {
+    "file": "name_entry00_parts01.ctxb",
+    "sha256": "ceb127925dd902d99d5f158668192f3faad62482d7e9e65168f9d942bfb788e2"
+  }
+}
