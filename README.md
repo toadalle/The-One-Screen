@@ -4,11 +4,18 @@ A single-screen conversion for **The Legend of Zelda: Ocarina of Time 3D**, buil
 
 ## Features
 
-- Controller-friendly HUD with Xbox-style labels
-- LB/RB item support and corrected X/Y item slots
-- Adapted inventory, gear, map, and frontend menus
-- Reworked Ocarina controls and song sheet
-- D-pad shortcuts and context-sensitive screen switching
+- Single-screen-friendly gameplay and menu presentation
+- Redesigned HUD for traditional controllers
+- Xbox-style button labels and contextual controls
+- Proper LB/RB item functionality
+- Correct X/Y item-slot behavior
+- Reworked Ocarina controls, presentation, and song sheet
+- D-pad shortcuts for Items, Gear, Ocarina, and View
+- Start opens the Pause menu; Select opens the Map
+- Inventory, Gear, Map, File Select, and other interfaces adapted for the new layout
+- Context-sensitive screen switching for special game states
+- Frontend backdrop fixes and full-width main-screen transition fades
+- Numerous HUD and UI fixes designed specifically around single-screen play
 
 ## Installation
 
@@ -24,16 +31,39 @@ A legally obtained game copy is required. No ROM or retail executable is include
 
 ## Controls
 
-Bind A/B/X/Y directly in Azahar; LT/RT to L/R and LB/RB to ZL/ZR.
+### Azahar bindings
+
+| Controller | 3DS binding |
+| --- | --- |
+| A / B / X / Y | A / B / X / Y respectively |
+| LT / RT | L / R |
+| LB / RB | ZL / ZR |
+| Start / Select | Start / Select |
+| D-pad | Corresponding D-pad directions |
+| Left stick | Circle Pad |
+
+### Gameplay shortcuts
 
 | Control | Action |
 | --- | --- |
-| D-pad Up / Down | Items / Gear |
+| D-pad Up | Items |
+| D-pad Down | Gear |
 | D-pad Right | Ocarina |
 | Hold D-pad Left | View |
-| Start / Select | Pause / Map |
+| Start | Pause menu |
+| Select | Map |
 
-In Ocarina mode, B plays the native A note, A quits, and RB opens the song sheet.
+The mod handles item-slot translation internally: Xbox Y uses the native X item lane, and Xbox X uses the native Y item lane.
+
+### Ocarina
+
+| Control | Action |
+| --- | --- |
+| B | Play the native A note |
+| A | Quit |
+| RB | Open the song sheet |
+
+The remaining notes use the LT, RT, X, and Y labels shown on screen.
 
 ## Screenshots
 
